@@ -3,8 +3,10 @@
     "Travis Gibson"
   ],
   "build-depends" : [ ],
-  "depends" : [ ],
-  "description" : "Interconnect two pipelines",
+  "depends" : [
+    "Cro::Core"
+  ],
+  "description" : "A low-level component to interconnect two Cro pipelines",
   "license" : "Artistic-2.0",
   "name" : "Cro::H",
   "perl" : "6.c",
@@ -13,7 +15,9 @@
   },
   "resources" : [ ],
   "source-url" : "https://github.com/Garland-g/Cro-H.git",
-  "tags" : [ ],
+  "tags" : [
+    "Cro"
+  ],
   "test-depends" : [ ],
   "version" : "0.0.1"
 }

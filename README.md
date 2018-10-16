@@ -3,7 +3,7 @@
 NAME
 ====
 
-Cro::H - Interconnect two pipelines
+Cro::H - A low-level component to interconnect two Cro pipelines
 
 SYNOPSIS
 ========

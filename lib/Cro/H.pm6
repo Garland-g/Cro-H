@@ -39,7 +39,7 @@ method transformer(Supply:D $pipeline) returns Supply {
 
 =head1 NAME
 
-Cro::H - Interconnect two pipelines
+Cro::H - A low-level component to interconnect two Cro pipelines
 
 =head1 SYNOPSIS
 
