@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Garland-g/Cro-H.svg?branch=master)](https://travis-ci.org/Garland-g/Cro-H)
+
 NAME
 ====
 
@@ -26,13 +28,13 @@ Split off a second pipelines by creating a source that outputs nothing as the st
 Merge two pipelines by creating a sink that ignores all incoming values as the end of the second pipeline.
 
     Sample pipeline:
-     ---------      _______________      -------
-    | Source1 | -> |_____     _____| -> | Sink1 |
-     ---------           |   |           -------
-                         | H |
-     ---------      _____|   |_____      -------
-    | Source2 | -> |______________ | -> | Sink2 |
-     ---------                           -------
+     ---------      _________________      -------
+    | Source1 | -> |______     ______| -> | Sink1 |
+     ---------            |   |           -------
+                          | H |
+     ---------      ______|   |______      -------
+    | Source2 | -> |_________________| -> | Sink2 |
+     ---------                             -------
 
 AUTHOR
 ======
