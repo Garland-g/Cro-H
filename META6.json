@@ -12,7 +12,7 @@
     "Cro::H" : "lib/Cro/H.pm6"
   },
   "resources" : [ ],
-  "source-url" : "",
+  "source-url" : "https://github.com/Garland-g/Cro-H.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.1"
