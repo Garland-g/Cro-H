@@ -1,6 +1,6 @@
 use v6.c;
 use Cro::Transform;
-unit role Cro::H:ver<0.0.1> does Cro::Transform;
+unit role Cro::H:ver<0.0.2> does Cro::Transform;
 has $!top = Supplier::Preserving.new;
 has $!bottom = Supplier::Preserving.new;
 has Bool $!top-used = False;
